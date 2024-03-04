@@ -360,9 +360,9 @@ em caixa alta. Utiliza-se antes do nome da conferencia a expressao "In". Segundo
   </macro>
   <!--Citacao-->
   <!--et al. aparece a partir de 04 autores-->
-  <citation et-al-min="4" et-al-use-first="1" collapse="year" disambiguate-add-year-suffix="true">
+  <citation et-al-min="4" et-al-use-first="1" collapse="year" disambiguate-add-year-suffix="true" font-style="italic"/>
     <sort>
-      <key macro="author"/>
+      <key macro="author"/> 
       <!--Puxa o autor primeiro-->
       <key variable="issued"/>
       <!--Depois o ano-->
