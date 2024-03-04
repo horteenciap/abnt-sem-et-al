@@ -242,7 +242,7 @@
           <name form="short" delimiter="; " delimiter-precedes-last="never" initialize-with=". " name-as-sort-order="all">
             <name-part name="family"/>
             <name-part name="given"/>
-          </name>
+          </name text-case="uppercase">
           <et-al font-style="italic"/>
           <substitute>
             <names variable="editor"/>
