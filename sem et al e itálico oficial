@@ -393,7 +393,7 @@
             <text variable="publisher-place"/>
           </if>
           <else>
-            <text value="s. l." font-style="italic" prefix="[" suffix="]" text-case="capitalize-first"/>
+            <text value="" font-style="italic" prefix="[" suffix="]" text-case="capitalize-first"/>
           </else>
         </choose>
         <group prefix=": " suffix=",">
@@ -402,14 +402,14 @@
               <text variable="publisher"/>
             </if>
             <else>
-              <text value="s. n." font-style="italic" prefix="[" suffix="]"/>
+              <text value="" font-style="italic" prefix="[" suffix="]"/>
             </else>
           </choose>
         </group>
         <text macro="issued" prefix=" "/>
       </if>
       <else>
-        <text value="s. l.: s. n." font-style="italic" prefix="[" suffix="]" text-case="capitalize-first"/>
+        <text value="" font-style="italic" prefix="[" suffix="]" text-case="capitalize-first"/>
         <text macro="issued" prefix=", "/>
       </else>
     </choose>
@@ -450,7 +450,7 @@
               <text variable="status" font-style="italic"/>
             </if>
             <else>
-              <text value="s. d." font-style="italic" prefix="[" suffix="]"/>
+              <text value="" font-style="italic" prefix="[" suffix="]"/>
             </else>
           </choose>
         </else>
